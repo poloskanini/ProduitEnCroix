@@ -1,0 +1,89 @@
+/* FONTS */
+@font-face {
+  font-family: "DeuxiemeRang";
+  src: url(fonts/deuxieme_rang/Deuxieme_Rang.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "BrokenVessels";
+  src: url(fonts/kg_broken_vessels_sketch/KGBrokenVesselsSketch.ttf) format("truetype");
+}
+
+/* BASIC RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'DeuxiemeRang';
+  min-height: 100vh;
+}
+
+body {
+  background: url(images/126663792_m.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+}
+
+.wrapper {
+  margin-top: 3rem;
+  font-family: "BrokenVessels";
+}
+
+h1 {
+  margin-top: 3rem;
+  color: white;
+  font-size: clamp(3rem, 6vw, 7rem);
+  font-family: "DeuxiemeRang";
+  font-weight: 900;
+}
+
+input {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4px;
+  font-size: clamp(1rem, 2vw, 6rem);
+  font-weight: 100;
+  color: grey;
+}
+
+.entry::placeholder {
+  opacity: .5;
+  font-size: 1.2rem;
+}
+
+button {
+  margin: 2rem;
+  font-size: 2rem;
+  padding: 1rem .5rem;
+  cursor: pointer;
+}
+
+#myResult {
+  background-color: transparent;
+  border: 4px solid white;
+  color: white;
+  background-color: #436462;
+}
+
+#myResult::placeholder {
+  color: white;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  /*  */
+}
