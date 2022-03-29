@@ -85,7 +85,7 @@ input {
 
 .entry::placeholder {
   opacity: .5;
-  font-size: clamp(.8rem, 1vw, 1.2rem);
+  font-size: clamp(.8rem, 1vw, 1.4rem);
 }
 
 button {
@@ -98,6 +98,7 @@ button {
 #myResult {
   border: 4px solid white;
   color: white;
+  background-color: #2F2E32;
 }
 
 #myResult::placeholder {
