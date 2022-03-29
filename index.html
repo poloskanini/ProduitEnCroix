@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Produit en Croix</title>
-  <!-- Bootstrap -->
+  <!-- Bootstrap (for buttons... #lazy ^^)-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <!-- Favicon -->
   <link rel="shortcut icon" href="images/favicon crossProduct.png">
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  
   <div class="container">
     <h1>Calculateur de Produit en Croix</h1>
 
@@ -25,7 +25,6 @@
         <div class="entries">
           <input type="number" id="numberOne" class="entry" value="" placeholder="Entrez un nombre A" onfocus="this.value=''" required>
           <input type="number" id="numberTwo" class="entry" value="" placeholder="Entrez un nombre B" onfocus="this.value=''" required>
-          <br>
           <input type="number" id="numberThree" class="entry" value="" placeholder="Entrez un nombre C" onfocus="this.value=''" required>
           <input type="number" id="myResult" value="RÉSULTAT" placeholder="RÉSULTAT" disabled>
         </div>
@@ -35,12 +34,22 @@
           <button class="btn btn-danger btn-lg" id="resetButton" type="reset">RESET</button>  
         </div>
 
+        <div class="explications">
+          <figcaption>💡 Appliquer la formule suivante : B x C / A = Résultat</figcaption>
+        </div>
+
       </form>
 
     </div>
+
   </div>
   
-  
+  <footer>
+    <a href="https://www.nicolasbarthes.com">
+      N.B ©
+    </a>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>

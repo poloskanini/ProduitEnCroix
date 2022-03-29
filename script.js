@@ -15,14 +15,3 @@ document.addEventListener('keydown', (event) => {
     crossCalculate();
   }
 })
-
-// RESET
-
-const resetForm = () => {
-  const form = document.getElementById('.form')
-
-  document.addEventListener('click', () => {
-    console.log("prout")
-    form.reset();
-  })
-}
