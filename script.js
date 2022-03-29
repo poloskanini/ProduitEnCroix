@@ -33,3 +33,5 @@ document.addEventListener('keydown', (event) => {
     event.preventDefault();
   }
 });
+
+document.getElementById('myResult').readOnly = true;
