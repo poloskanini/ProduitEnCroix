@@ -103,6 +103,7 @@ button {
 
 #myResult::placeholder {
   color: white;
+  background-color: #2F2E32;
 }
 
 footer {
