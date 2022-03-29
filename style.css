@@ -29,6 +29,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   min-height: 100vh;
+  max-width: 100%;
   position: relative;
 }
 
@@ -58,7 +59,7 @@ span {
 }
 
 h1 {
-  margin: 2rem auto 0;
+  margin: 7rem auto 0;
   color: white;
   font-size: clamp(4rem, 7vw, 8rem);
   font-family: "DeuxiemeRang";
